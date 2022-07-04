@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useRef, useEffect } from "react";
 import { ContentsInput, TitleInput } from "./styledComponent";
 
 function InputPost({ onChange, contents, title }) {
@@ -7,11 +7,11 @@ function InputPost({ onChange, contents, title }) {
   useEffect(() => {
     titleInput.current.focus();
   }, []);
-  const onKeyUp=(e)=>{
-    if(e.key === 'Enter'){
-        contentsInput.current.focus();
+  const onKeyUp = (e) => {
+    if (e.key === "Enter") {
+      contentsInput.current.focus();
     }
-  }
+  };
   return (
     <>
       <TitleInput

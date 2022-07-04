@@ -5,13 +5,8 @@ import {
   PostSection,
   PostTitleDiv,
   PostTitle,
-  PostListDiv,
-  PagingSection,
   LoadingDiv,
   LoadingImg,
-  PagenumberDiv,
-  CursorDiv,
-  PostRepl,
   PostReplDiv,
   ReplTitleDiv,
   ReplWriter,
@@ -46,7 +41,6 @@ const ShowPost = ({apiUrl}) => {
     setRepl(e.target.value);
   };
   const countRepls = (repls) => {
-    console.log("리뷰 개수 세는 중 ... ");
     return repls.length;
   };
   const onSubmitRepl = () => {

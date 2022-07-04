@@ -1,11 +1,7 @@
 import React, { useState } from "react";
 import {
   PostSection,
-  PostTitle,
-  PostTitleDiv,
   PostWriteDiv,
-  TitleInput,
-  ContentsInput,
   PostSubmitDiv,
   PostSubmit,
 } from "./styledComponent";
