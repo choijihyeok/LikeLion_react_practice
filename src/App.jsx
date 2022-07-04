@@ -1,3 +1,4 @@
+import React from "react";
 import { Main, MediaDiv } from "./styledComponent";
 
 import { darkTheme, lightTheme } from "./styles";
